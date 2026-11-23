@@ -46,4 +46,7 @@ Arduino IDE 2, paquete ESP32 by Espressif Systems, DHT sensor library y Adafruit
 
 ## 12. Pruebas
 Consultar [`pruebas/registro_de_pruebas.md`](pruebas/registro_de_pruebas.md). El autor reportó compilación exitosa en Arduino IDE y que el simulador funcionó en su PC.
+## 🌐 Simulador interactivo
+
+[Haz clic aquí para probar el ventilador automático](https://andrxs73.github.io/ventilador-automatico/simulador/)
 
