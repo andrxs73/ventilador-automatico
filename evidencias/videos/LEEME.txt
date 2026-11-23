@@ -1,0 +1,1 @@
+Guardar aquí video real de demostración o agregar su URL al README. Si se incluye el video del ventilador anterior, identificarlo como antecedente histórico, no como prueba del ESP32 con Wi-Fi.
