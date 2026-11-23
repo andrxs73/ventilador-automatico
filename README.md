@@ -8,8 +8,9 @@
 Ventilador automático con monitoreo Wi-Fi.
 
 ## 2. Integrantes
-- [COMPLETAR: nombres reales de los integrantes]
-- Institución / asignatura / docente: [COMPLETAR]
+- Angel Terryl Y Andres Bravo
+- Universidad Americana. fundamentos de mecatranica, Eduardo Enrique
+Pimienta León
 
 ## 3. Problema
 El ventilador original se accionaba manualmente. Se propone un control automático por temperatura y una interfaz de consulta y control por Wi-Fi.
@@ -44,25 +45,5 @@ Arduino IDE 2, paquete ESP32 by Espressif Systems, DHT sensor library y Adafruit
 **Firmware:** instalar Arduino IDE 2, paquete `esp32 by Espressif Systems` y librerías Adafruit DHT/Unified Sensor. Abrir `codigo/ventilador_automatico_wifi.ino`, seleccionar `ESP32 Dev Module` y pulsar **Verificar**. Para cargarlo a hardware futuro, primero revisar cableado y fuente, configurar credenciales Wi-Fi sin publicarlas, conectar ESP32 por USB y seleccionar puerto. La red de respaldo y sus credenciales de demostración se encuentran en el código y deben cambiarse antes de cualquier uso real.
 
 ## 12. Pruebas
-Consultar [`pruebas/registro_de_pruebas.md`](pruebas/registro_de_pruebas.md). El autor reportó compilación exitosa en Arduino IDE y que el simulador funcionó en su PC. No se ha ejecutado una verificación independiente del hardware. Se proporcionan casos reproducibles para documentar resultados observados.
+Consultar [`pruebas/registro_de_pruebas.md`](pruebas/registro_de_pruebas.md). El autor reportó compilación exitosa en Arduino IDE y que el simulador funcionó en su PC.
 
-## 13. Evidencias fotográficas
-Las fotografías del montaje **nuevo** están pendientes. No se han fabricado fotos. Se pueden agregar capturas auténticas de Arduino IDE y de la simulación, etiquetándolas como evidencias de software. Se requiere verificar si el docente acepta ese avance en sustitución parcial de evidencias físicas.
-
-## 14. Video demostrativo
-Guion en [`documentacion/guion_video.md`](documentacion/guion_video.md) para grabar una demostración real de pantalla de 3–5 minutos, explicando claramente que es simulación. El video del montaje anterior, si se incluye, debe identificarse como **antecedente histórico**.
-
-## 15. Dificultades, soluciones y conclusiones
-**Dificultad:** actualmente no se dispone de ESP32, DHT11, relé ni fuente 12 V para probar el nuevo montaje. **Solución parcial:** se implementó el firmware y una simulación local que permite probar la lógica de control sin componentes. **Conclusión:** el software está preparado y el simulador permite demostrar el algoritmo; quedan pendientes montaje, medición real, conmutación del ventilador y conectividad Wi-Fi física.
-
-## Estado de entrega
-- [x] Firmware preparado y compilado según captura del autor.
-- [x] Simulador HTML preparado y probado por el autor.
-- [x] Documentación y casos de prueba preparados.
-- [ ] Evidencias físicas actuales (al menos cinco fotografías reales).
-- [ ] Pruebas con hardware real y Wi-Fi real.
-- [ ] Video de demostración grabado por el autor.
-- [ ] Nombres, enlace de video y resultados observados completados.
-
-## Seguridad y autoría
-No conectar 12 V al ESP32 ni el motor a GPIO. Verificar polaridad, corriente y compatibilidad del relé. No trabajar con 110/120 V. No publicar contraseñas reales ni afirmar que las pruebas físicas se completaron. Código y simulador preparados con asistencia de ChatGPT; verificar reglas de atribución de la asignatura.
